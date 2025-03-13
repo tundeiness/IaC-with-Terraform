@@ -11,8 +11,10 @@ variable "location" {
 
 variable "admin_username" {
   description = "The admin username for the VM being created."
+  default = "azureUser"
 }
 
 variable "admin_password" {
   description = "The password for the VM being created."
+  default = "PassWord@123"
 }
